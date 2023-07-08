@@ -21,4 +21,9 @@ router.get('/r2', function (req, res, next) {
   res.render('r2', { title: 'R2' });
 });
 
+// Contents page
+router.get('/contents', function (req, res, next) {
+  res.render('contents', { title: 'Contents' });
+});
+
 module.exports = router;
