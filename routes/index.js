@@ -16,4 +16,9 @@ router.get('/account', function (req, res, next) {
   res.render('account', { title: 'Account' });
 });
 
+// R2 page
+router.get('/r2', function (req, res, next) {
+  res.render('r2', { title: 'R2' });
+});
+
 module.exports = router;
