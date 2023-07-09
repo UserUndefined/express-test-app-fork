@@ -6,6 +6,11 @@ router.get('/', function (req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+/* V1 home page. */
+router.get('/R1', function (req, res, next) {
+  res.render('R1', { title: 'R1 Home page' });
+});
+
 /* V2 home page. */
 //router.get('/V2', function (req, res, next) {
 //  res.render('indexV2', { title: 'V2 Home page' });
